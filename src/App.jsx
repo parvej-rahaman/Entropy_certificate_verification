@@ -2,6 +2,8 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { supabase } from './supabaseClient'
+import entropyLogo from './assets/entropy.png'
+import gcettsLogo from './assets/GCETTS.png'
 
 export default function App() {
   const { certificateId } = useParams()
@@ -92,9 +94,19 @@ export default function App() {
     <main className="min-h-screen bg-slate-950 text-white flex items-center justify-center p-6">
       <section className="w-full max-w-lg rounded-2xl border border-slate-700 bg-slate-900 p-8 shadow-xl">
         {/* Branding */}
-        <div className="text-center">
-          <p className="text-sm font-semibold tracking-[0.25em] text-cyan-400">
-            ENTROPY · GCETTS
+        <div className="flex flex-col items-center text-center">
+          <img
+            src={gcettsLogo}
+            alt="GCETTS Logo"
+            className="h-45 w-45 object-contain"
+          />
+          <p className="text-sm font-semibold tracking-[0.25em] text-cyan-400 flex items-center justify-center gap-3">
+            <img
+              src={entropyLogo}
+              alt="Entropy Logo"
+              className="h-25 w-25 object-contain"
+            />
+            <span>· Dept. of CSE</span>
           </p>
 
           <h1 className="mt-3 text-3xl font-bold">
@@ -102,7 +114,7 @@ export default function App() {
           </h1>
 
           <p className="mt-3 text-slate-400">
-            Verify the authenticity of certificates issued by Entropy Coding
+            Verify the authenticity of certificates issued by Dept. of CSE & Entropy Coding
             Club.
           </p>
         </div>
