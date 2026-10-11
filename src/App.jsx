@@ -98,7 +98,7 @@ export default function App() {
           <img
             src={gcettsLogo}
             alt="GCETTS Logo"
-            className="h-45 w-45 object-contain"
+            className="h-30 w-30 object-contain"
           />
           <p className="text-sm font-semibold tracking-[0.25em] text-cyan-400 flex items-center justify-center gap-3">
             <img
@@ -258,7 +258,7 @@ export default function App() {
 
                 <div className="mt-5 rounded-lg bg-slate-800/70 p-3 text-xs leading-relaxed text-slate-400">
                   Verification status is based on the certificate records
-                  maintained by Entropy Coding Club, GCETTS.
+                  maintained by Entropy Coding Club & Dept. of CSE, GCETTS.
                 </div>
               </div>
             ) : (
@@ -293,7 +293,7 @@ export default function App() {
         {/* Footer */}
         <footer className="mt-8 border-t border-slate-800 pt-5 text-center">
           <p className="text-sm font-medium text-slate-300">
-            Entropy Coding Club
+            Entropy Coding Club & Dept. of CSE
           </p>
           <p className="mt-1 text-xs leading-relaxed text-slate-500">
             Government College of Engineering and Textile Technology,
