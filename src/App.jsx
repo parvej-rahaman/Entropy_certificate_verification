@@ -290,6 +290,9 @@ export default function App() {
           <p className="mt-3 text-xs text-slate-600">
             Official Certificate Verification Portal
           </p>
+          <p className="mt-3 text-xs text-slate-600">
+            Designed and Managed by <b>Parvej Rahaman</b>
+          </p>
         </footer>
       </section>
     </main>
