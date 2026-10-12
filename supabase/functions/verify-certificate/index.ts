@@ -94,7 +94,6 @@ Deno.serve(async (req: Request) => {
       event_name: data.event_name,
       department: data.department,
       academic_year: data.academic_year,
-      email: data.email,
       issue_date: data.issue_date,
       status: data.status,
     },
