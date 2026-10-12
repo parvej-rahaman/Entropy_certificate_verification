@@ -249,7 +249,7 @@ export default function App() {
                   </div>
 
                   <div>
-                    <p className="text-slate-400">Academic Year</p>
+                    <p className="text-slate-400">Email</p>
                     <p className="mt-1 text-white">
                       {result.certificate.email || 'Not specified'}
                     </p>
