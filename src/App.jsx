@@ -249,6 +249,13 @@ export default function App() {
                   </div>
 
                   <div>
+                    <p className="text-slate-400">Academic Year</p>
+                    <p className="mt-1 text-white">
+                      {result.certificate.email || 'Not specified'}
+                    </p>
+                  </div>
+
+                  <div>
                     <p className="text-slate-400">Issue Date</p>
                     <p className="mt-1 text-white">
                       {result.certificate.issue_date || 'Not specified'}
