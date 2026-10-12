@@ -133,7 +133,7 @@ export default function App() {
             type="text"
             value={inputId}
             onChange={(event) => setInputId(event.target.value)}
-            placeholder="e.g. ENTROPY-2026-001"
+            placeholder="e.g. Entropy-2026-02-C001"
             autoComplete="off"
             maxLength={80}
             className="w-full rounded-lg border border-slate-700 bg-slate-800 p-3 text-white outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
